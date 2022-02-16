@@ -34,9 +34,9 @@ let target: Sprite = null
 target = sprites.create(assets.image`myImage`, SpriteKind.targeting)
 controller.moveSprite(target, 100, 100)
 target.setStayInScreen(true)
-namespace shooter {
+namespace hello {
     //% block
-    export function shoot() {
+    export function helloWorld() {
 
     }
 
@@ -44,7 +44,7 @@ namespace shooter {
     // block text with spaces
 
     //% block
-    export function shoot2() {
+    export function camlCaseTwo() {
 
     }
 }
