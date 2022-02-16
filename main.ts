@@ -34,3 +34,17 @@ let target: Sprite = null
 target = sprites.create(assets.image`myImage`, SpriteKind.targeting)
 controller.moveSprite(target, 100, 100)
 target.setStayInScreen(true)
+namespace shooter {
+    //% block
+    export function shoot() {
+
+    }
+
+    // note that Caml casing yields lower case
+    // block text with spaces
+
+    //% block
+    export function shoot2() {
+
+    }
+}
